@@ -1,0 +1,161 @@
+
+@import url(navi.css);
+@import url(forms.css);
+@import url(homepage.css);
+@import url(featured_slide.css);
+
+body{
+	margin:0;
+	padding:0;
+	font-size:13px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#979797;
+	background-color:#06213F;
+	text-align:justify;
+	}
+
+.clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
+.clear{display:inline-block;}
+
+a{outline:none; text-decoration:none; color:#55ABDA; background-color:#F9F9F9;}
+
+.fl_left{float:left;}
+.fl_right{float:right;}
+
+.imgholder, .imgl, .imgr{padding:4px; border:1px solid #DEDACB; text-align:center;}
+.imgl{float:left; margin:0 15px 15px 0; clear:left;}
+.imgr{float:right; margin:0 0 15px 15px; clear:right;}
+
+/* ----------------------------------------------Wrapper-------------------------------------*/
+
+div.wrapper{
+	position:relative;
+	margin:0 auto 20px;
+	width:960px;
+	text-align:left;
+	}
+
+div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, div.wrapper h6{
+	margin:0 0 15px 0;
+	padding:0;
+	font-size:16px;
+	font-weight:normal;
+	font-style:normal;
+	line-height:normal;
+	}
+
+.row1{color:#999999; background-color:#06213F;}
+.row1 a{color:#FCFCFC; background-color:#06213F;}
+.row2, .row3, .row4{color:#000000; background-color:#F9F9F9;}
+
+/* ----------------------------------------------Generalise-------------------------------------*/
+
+#header, #container, #footer{
+	display:block;
+	width:960px;
+	}
+
+.rnd{
+	display:block;
+	width:960px;
+	padding:12px 0 0 0;
+	background:url("../images/round_top.gif") top left no-repeat;
+	}
+
+/* ----------------------------------------------Header-------------------------------------*/
+
+#header{padding:25px 0 0 0;}
+
+#header h1, #header p, #header ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	line-height:normal;
+	}
+
+#header h1{font-size:36px; font-variant:small-caps; font-style:normal;}
+
+#header .fl_right{
+	display:block;
+	width:360px;
+	}
+
+#header .fl_right ul{
+	margin-bottom:10px;
+	font-size:11px;
+	}
+
+#header .fl_right li{
+	display:inline;
+	margin:0 4px 0 0;
+	padding:0 6px 0 0;
+	border-right:1px solid #FCFCFC;
+	}
+
+#header .fl_right li.last{
+	margin:0;
+	padding:0;
+	border:none;
+	}
+
+/* ----------------------------------------------Content-------------------------------------*/
+
+#container{
+	width:920px;
+	padding:20px;
+	line-height:1.6em;
+	background:url("../images/round_bot.gif") bottom left no-repeat;
+	text-align:justify;
+	}
+
+#container a{
+	color:#000000;
+	background-color:#F9F9F9;
+	}
+
+#container h1, #container h2, #container h3, #container h4, #container h5, #container h6{
+	padding-bottom:8px;
+	border-bottom:1px solid #DEDACB;
+	}
+
+#container .readmore{
+	display:block;
+	width:100%;
+	text-align:right;
+	}
+
+#content{
+	display:block;
+	float:left;
+	width:910px;
+	}
+
+
+/* ----------------------------------------------Footer-------------------------------------*/
+
+#footer{
+	width:920px;
+	padding:5px 20px 15px 20px;
+	background:url("../images/round_bot.gif") bottom left no-repeat;
+	}
+
+#footer .fl_left img{margin-bottom:30px;}
+
+#footer address{
+	display:inline;
+	float:left;
+	margin-left:40px;
+	text-transform:none;
+	font-style:normal;
+	line-height:1.6em;
+	}
+
+/* ----------------------------------------------Copyright-------------------------------------*/
+
+#copyright
+{
+	padding:0 12px;
+	color:#55ABDA;
+	background-color:#06213F;
+	}
+

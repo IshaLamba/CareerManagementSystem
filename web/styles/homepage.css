@@ -1,0 +1,91 @@
+
+
+#homepage{
+	position:relative;
+	margin:0 auto 30px;
+	display:block;
+	width:100%;
+	}
+
+/* ----------------------------------------------Left Column-------------------------------------*/
+
+#homepage #left_column{
+	display:block;
+	float:left;
+	width:230px;
+	}
+
+#homepage #left_column .imgholder{
+	margin-bottom:20px;
+	}
+
+/* ----------------------------------------------Right column-------------------------------------*/
+
+#homepage #rightcolumn{
+	display:block;
+	float:left;
+	width:550px;
+	margin:0 0 0 20px;
+	color:black;
+	}
+
+#homepage #rightcolumn ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+
+#homepage #rightcolumn li{
+	display:block;
+	width:100%;
+	margin:0 0 20px 0;
+	padding:0 0 20px 0;
+	list-style:none;
+	border-bottom:1px solid #DEDACB;
+	}
+
+
+/* ---------------------------------------------Twitter-------------------------------------*/
+
+#twitter{
+	display:block;
+	width:900px;
+	height:86px;
+	margin:0 0 30px 0;
+	padding:10px;
+	clear:both;
+	background:url("../images/twitter_bg.gif") top left no-repeat;
+	}
+
+#container #twitter a{
+	color:#2DCDFF;
+	background-color:#00112B;
+	}
+
+#twitter .fl_left{
+	display:block;
+	float:left;
+	width:94px;
+	height:61px;
+	margin:0;
+	padding:25px 10px 0 44px;
+	background:url("../images/twitter_logo.gif") 0 14px no-repeat;
+	border-right:2px solid #FFFFFF;
+	text-align:center;
+	}
+
+
+#twitter .fl_right{
+	display:block;
+	float:right;
+	width:730px;
+	height:60px;
+	margin:0;
+	padding:26px 0 0 0;
+	font-size:14px;
+	font-weight:bold;
+	line-height:1.4em;
+	color:#FFFFFF;
+	background-color:#00112B;
+	}
+

@@ -1,0 +1,43 @@
+form, fieldset{
+	margin:0;
+	padding:0;
+	border:none;
+	}
+
+
+#sitesearch{
+	display:block;
+	float:right;
+	}
+
+#sitesearch strong{
+	display:block;
+	float:left;
+	margin:0;
+	padding:7px 15px 0 0;
+	text-transform:uppercase;
+	color:#C6CDD6;
+	background-color:#06213F;
+	}
+
+#sitesearch input{
+	display:block;
+	float:left;
+	width:230px;
+	height:25px;
+	margin:0 15px 0 0;
+	padding:0 5px;
+	color:#979797;
+	background:url("../images/form_input_long.gif") 0 0 no-repeat #F9F9F9;
+	border:none;
+	}
+
+#sitesearch input#search{
+	width:23px;
+	height:23px;
+	margin:0;
+	padding:0;
+	cursor:pointer;
+	background:none;
+	float:left;
+	}
